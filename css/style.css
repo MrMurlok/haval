@@ -121,9 +121,6 @@ button {
 	width: 100%;
 	margin: 0 auto;
 }
-.color_black {
-	color: var(--black-color);
-}
 /* header */
 .header {
 	background: var(--black-color);
@@ -308,59 +305,6 @@ button {
 	padding-left: 12px;
 }
 
-.countdown {
-	display: flex;
-	align-items: center;
-	gap: 8px;
-	margin-top: 9px;
-}
-.countdown__item {
-	position: relative;
-	display: grid;
-	place-items: center;
-	width: 120px;
-	height: 120px;
-}
-.countdown__ring {
-	position: absolute;
-	inset: 0;
-	width: 120px;
-	height: 120px;
-	transform: rotate(-90deg);
-}
-.countdown__track,
-.countdown__progress {
-	fill: none;
-	stroke-width: 7;
-}
-.countdown__track {
-	stroke: #d9d9d9;
-}
-.countdown__progress {
-	stroke: var(--accent-color);
-	stroke-linecap: round;
-	stroke-dasharray: 251.2;
-	stroke-dashoffset: 0;
-	transition: stroke-dashoffset var(--transition);
-}
-.countdown__value {
-	margin-top: -13px;
-	font-family: Arial, sans-serif;
-	font-size: 48px;
-	letter-spacing: 0.03em;
-}
-.countdown__label {
-	margin-top: 46px;
-	position: absolute;
-	color: #585858;
-	font-family: Arial, sans-serif;
-	font-size: 16px;
-}
-.countdown__colon {
-	margin-top: 3px;
-	font-family: Arial, sans-serif;
-	font-size: 50px;
-}
 /* cards */
 .offers {
 	padding: 78px 0 96px;
@@ -854,10 +798,7 @@ button {
 		padding-left: 0;
 		text-align: center;
 	}
-	.countdown {
-		justify-content: center;
-	}
-	.offers {
+		.offers {
 		padding-top: 64px;
 	}
 	.offers__grid {
@@ -981,32 +922,7 @@ button {
 	.sinoby-timer[data-sinoby-reserve="sinoby-2gimrh"] {
 		min-height: 85px;
 	}
-	.countdown {
-		gap: 4px;
-		margin-top: 14px;
-	}
-	.countdown__item,
-	.countdown__ring {
-		width: 68px;
-		height: 68px;
-	}
-	.countdown__track,
-	.countdown__progress {
-		stroke-width: 6;
-	}
-	.countdown__value {
-		margin-top: -8px;
-		font-size: 24px;
-	}
-	.countdown__label {
-		margin-top: 27px;
-		font-size: 10px;
-	}
-	.countdown__colon {
-		margin-top: -6px;
-		font-size: 24px;
-	}
-	.offers {
+							.offers {
 		padding-top: 56px;
 		padding-bottom: 56px;
 	}
@@ -1128,18 +1044,7 @@ button {
 	.hero_subtitle {
 		font-size: 20px;
 	}
-	.countdown {
-		gap: 2px;
-	}
-	.countdown__item,
-	.countdown__ring {
-		width: 62px;
-		height: 62px;
-	}
-	.countdown__colon {
-		font-size: 20px;
-	}
-	.offer-card__head {
+				.offer-card__head {
 		flex-direction: column;
 		gap: 10px;
 	}

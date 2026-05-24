@@ -278,6 +278,7 @@ button {
 	position: relative;
 	top: -4px;
 }
+
 .timer-block__content {
 	width: 571px;
 	height: 130px;
@@ -293,6 +294,11 @@ button {
 	color: var(--black-color);
 	padding-left: 10px;
 	letter-spacing: 0.13em;
+	margin-bottom: 13px;
+}
+.sinoby-timer[data-sinoby-reserve="sinoby-2gimrh"] {
+	display: block;
+	min-height: 118px;
 }
 .timer-block__button {
 	min-width: 467px;
@@ -301,6 +307,7 @@ button {
 	letter-spacing: 0.18em;
 	padding-left: 12px;
 }
+
 .countdown {
 	display: flex;
 	align-items: center;
@@ -861,6 +868,7 @@ button {
 		height: 885px;
 	}
 }
+
 @media (max-width: 767px) {
 	.container {
 		padding-right: 16px;
@@ -969,6 +977,9 @@ button {
 		max-width: 360px;
 		height: 54px;
 		letter-spacing: 0.08em;
+	}
+	.sinoby-timer[data-sinoby-reserve="sinoby-2gimrh"] {
+		min-height: 85px;
 	}
 	.countdown {
 		gap: 4px;
